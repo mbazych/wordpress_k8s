@@ -51,4 +51,5 @@ Baza danych to **MySQL 5.7** działający w ramach usługi **Cloud SQL** na Goog
 
 
 ## Autor
-[Michał Bazych](https://www.linkedin.com/in/mbazych/)
+[Michał Bazych](https://www.linkedin.com/in/mbazych/) - 
+Wzorowane na https://cloud.google.com/kubernetes-engine/docs/tutorials/persistent-disk
