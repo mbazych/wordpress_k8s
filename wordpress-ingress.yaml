@@ -1,0 +1,12 @@
+---
+apiVersion: "extensions/v1beta1"
+kind: "Ingress"
+metadata:
+  name: "wordpress-https"
+  namespace: "default"
+spec:
+  backend:
+    serviceName: "wordpress"
+    servicePort: 80
+  tls:
+  - secretName: "wordpress-crt"
